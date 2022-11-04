@@ -1,0 +1,12 @@
+pipeline{
+agent {
+lable 'any'
+}
+stages{
+stage('checkoutcode'){
+steps{
+
+}
+}
+}//stages closing 
+}//pipeline closing 
