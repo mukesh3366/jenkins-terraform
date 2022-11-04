@@ -30,6 +30,7 @@ variable "vpc_cidr" {
 variable "infra_env" {
   type        = string
   description = "infrastructure environment"
+  infra_env = "royal-net"
 }
 /*
 variable "aws_security_group_private" {
